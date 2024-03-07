@@ -1,0 +1,350 @@
+.contenedor{
+    background-color: hsl(214, 47%, 23%);
+    display: grid;
+    place-items: center;
+    
+
+}
+.triangulo{
+    
+   position: relative;
+   display: inline-block;
+    
+
+}
+.imagen{
+    margin: 25px;
+}
+.fondoPiedra{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    padding: 10px;
+    display: grid ;
+    place-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    
+
+    
+    
+}
+.piedra{
+    border-radius: 50%;
+    
+    
+    width: 80px;
+    height: 80px;
+    padding: 3px;
+    background-color: white;
+    display: grid;
+    place-items: center;
+    
+    
+}
+.fondoPapel{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    padding: 10px;
+    display: grid ;
+    place-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+    
+    
+  
+ 
+
+
+}
+.papel{
+    border-radius: 50%;
+    
+    
+    width: 80px;
+    height: 80px;
+    padding: 3px;
+    background-color: white;
+    display: grid;
+    place-items: center;
+
+}
+.fondoTijera{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    padding: 10px;
+    display: grid ;
+    place-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+
+ 
+}
+.tijera{
+    border-radius: 50%;
+    
+    
+    width: 80px;
+    height: 80px;
+    padding: 3px;
+    background-color: white;
+    display: grid;
+    place-items: center;
+
+}
+.score{
+    width: 480px;
+    border: solid gray;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    padding: 15px;
+    
+    
+
+}
+.score h2{
+    font-family:  Condensed;
+    color: white;
+}
+.puntaje{
+    background-color: white;
+    border-radius: 7px;
+    border: solid gray;
+    width: 100px  ;
+    height: 100px;
+    display: grid;
+    margin: 25px;
+    display: grid;
+    place-items: center;
+}
+
+.contenedor button{
+    background-color:  hsl(214, 47%, 23%);
+    border: none;
+}
+.mostrarPapel {
+    display: none;
+    background-color: white;
+    position: fixed;
+    border-radius: 15px;
+  
+  }
+.contenido{
+    
+  padding: 20px;
+  
+
+}
+
+.oponente{
+
+    border-radius: 50%;
+    
+    
+    width: 80px;
+    height: 80px;
+    padding: 3px;
+    background-color: white;
+    display: grid;
+    place-items: center;
+
+}
+
+.fondoPapel-partida{
+
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    padding: 10px;
+    display: grid ;
+    place-items: center;
+    
+
+}
+.fondoPiedra-partida{
+
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    padding: 10px;
+    display: grid ;
+    place-items: center;
+    
+
+}
+.fondoTijera-partida{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    padding: 10px;
+    display: grid ;
+    place-items: center;
+
+}
+    
+    
+
+
+
+.partida{
+    display: flex;
+    justify-content:space-between ;
+    width: 480px;
+    border: solid gray;
+    border-radius: 15px;
+    
+    margin: 50px;
+    padding: 15px;
+}
+.oponentePapel{
+    display: none;
+}
+.oponentePiedra{
+    display: none;
+}
+.oponenteTijera{
+    display: none;
+}
+
+.fondoPapel1{
+   
+    
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    padding: 10px;
+    display: grid ;
+    place-items: center;
+    
+    
+  
+ 
+
+
+}
+.papel1{
+    border-radius: 50%;
+    
+    
+    width: 80px;
+    height: 80px;
+    padding: 3px;
+    background-color: white;
+    display: grid;
+    place-items: center;
+
+}
+.fondoTijera1{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    padding: 10px;
+    display: grid ;
+    place-items: center;
+    
+
+ 
+}
+.tijera1{
+    border-radius: 50%;
+    
+    
+    width: 80px;
+    height: 80px;
+    padding: 3px;
+    background-color: white;
+    display: grid;
+    place-items: center;
+
+}
+.fondoPiedra1{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    padding: 10px;
+    display: grid ;
+    place-items: center;
+    
+    
+
+    
+    
+}
+.piedra1{
+    border-radius: 50%;
+    
+    
+    width: 80px;
+    height: 80px;
+    padding: 3px;
+    background-color: white;
+    display: grid;
+    place-items: center;
+    
+    
+}
+
+.rules{
+    border: solid white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    color: white;
+    width: 90px;
+    display: grid;
+    place-items: center;
+    
+}
+.rules button{
+    color: white;
+}
+
+
+.boton button{
+    background-color: white;
+    color: hsl(214, 47%, 23%);
+}
+
+.ganador{
+    color: white;
+    font-family: Barlow Semi Condensed;
+    align-items: center;
+    display: none;
+}
+
+.perdedor{
+    color: white;
+    font-family: Barlow Semi Condensed;
+    align-items: center;
+    display: none;
+
+}
+.empate{
+    color: white;
+    font-family: Barlow Semi Condensed;
+    align-items: center;
+    display: none;
+}
+.mensaje{
+    display: grid;
+    place-items: center;
+
+}
